@@ -23,9 +23,22 @@ Commit your code regularly and meaningfully. This helps both you (in case you ev
 Demonstrate your understanding of this Sprint's concepts by answering the following free-form questions. Edit the `ANSWERS.md` file to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager.
 
 - [ ] Why would you use class component over function components (removing hooks from the question)?
+
+  To use components lifecycle methods.
+
 - [ ] Name three lifecycle methods and their purposes.
+
+  Mounting - This is the phase when the component is being built out from the ground up. This is where componentDidMount() gets called
+  Updating - where you update the component data. This is where setState can be used to change the component’s state data.
+  Un-mounting - this is where the component is removed from the screen. componentWillUnmount is called and can be used for any clean up you may need to do.
+
 - [ ] What is the purpose of a custom hook?
+
+  To write cleaner and more concise code and re-use stateful logic
+
 - [ ] Why is it important to test our apps?
+
+  Testing minimizes the risks of bugs finding their way to the production code. Testing should be a part of every developer’s workflow.
 
 ## Project Set Up
 
@@ -44,7 +57,7 @@ Follow these steps to set up and work on your project:
 
 Follow these steps for completing your project:
 
-- [ ] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's  Repo).
+- [ ] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's Repo).
 - [ ] Add your Project Manager as a Reviewer on the Pull-request.
 - [ ] PM then will count the HW as done by merging the branch back into master.
 
